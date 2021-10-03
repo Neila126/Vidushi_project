@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | IOC Vidushi Super 30 girls, BBSR</title>
+  <link rel="icon" href="Logos/icon.jpg" type="jpg">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <nav>
+    <div id="navbar">
+      <div class="logo">
+        <img src="Logos/main_logo.jpg" alt="Vidushi">
+      </div>
+
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#about">About</a></li>
+        <li class="item"><a href="#facilities">Facilities</a></li>
+        <li class="item"><a href="#gallery">Gallery</a></li>
+        <li class="item"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input id="searchbox" type="text" placeholder="Search......." name="search">
+          <button id="btnnav" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="login-container">
+        <button id="btnnav1" onclick="document.getElementById('id01').style.display='block'"
+          style="width:auto;">Login</button>
+  </nav>
+
+  <section id="loginform">
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+          <img src="Logos/icon_profile.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label class="logintext" for="uname"><b>Username</b></label>
+          <input class="loginboxtext" type="text" placeholder="Enter Username" name="uname" required>
+           
+          <label class="logintext" for="psw"><b>Password</b></label>
+          <input  class="loginboxtext" type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label id="remember">
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <span id="forgot" class="psw">Forgot <a href="#">Password?</a></span>
+        </div>
+        <!-- <span class="psw">Forgot <a href="#">password?</a></span> -->
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- resistration form section -->
+  <section id="registrationform">
+    <div id="regi">
+      <form action="/action_page.php">
+        <div class="container">
+          <h2>Register</h2>
+          <p class="regi-para">Please fill in this form to create an account.</p>
+          <!-- <hr> -->
+          <br>
+          <br>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+          <label for="psw-repeat"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+          <label for="Batch" id="selectregi">Select year :</label>
+          <select name="Year" id="Batch">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+           <br>
+           <br>
+           <br>
+          <!-- <hr> -->
+          <p class="regi-para">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+          <button type="submit" class="registerbtn">Register</button>
+          <p class="regi-para">Already have an account? <a href="#">Login</a>.</p>
+        </div>
+
+        <!-- <div class="container-login">
+          <p>Already have an account? <a href="#">Login</a>.</p>
+        </div> -->
+      </form>
+    </div>
+  </section>
+
+
+
+  <section id="homesection">
+    <div id=home>
+      <header>
+            <h1>IOC VIDUSHI SUPER 30 GIRLS, BBSR</h1>
+        <p>Empowering Women Students Through Higher Education </p>
+      </header>
+      <button class="btn" id="btn_header">Read More</button>
+    </div>
+
+  </section>
+
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
