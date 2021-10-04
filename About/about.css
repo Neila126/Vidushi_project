@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+ scroll-behavior: smooth;
+}
+/*  font-family: 'Baloo Bhai', cursive; */
+/*font-family: 'Bree Serif', serif; */
+
+/* #about {
+
+} */
+
+#about h1{
+  color: red;
+  padding: 6px 0x 6px 0px;
+}
+ 
+ #main_about_container{
+  margin: 40px 30px;
+} 
+
+
+/* #ioc_container{
+  color: rgb(98, 0, 255);
+   
+} */
+#ioc_img{
+    display: inline-block;
+    margin: 20px 20px 40px 0px;
+}
+
+#ioc_vidushi_info{
+display: inline-block;
+margin-top: 0px;
+width: 650px;
+}
+#aboutheading{
+    display: inline-block;
+   
+}
+
+
+
+#ioc_container{
+display: inline-block;
+margin: 20px 20px 40px 0px;
+}
+
+#iocimg{
+display: inline-block;
+}
+
+#ioccontent{
+display: inline-block;
+margin:20px 10px 20px  0px ;
+width: 700px;
+}
+#csrlimg{
+    display: inline-block;
+    width: 400px;
+    
+}
+
+#csrlintro{
+  display: inline-block;
+}
+
+#csrlintro_container{
+    display: inline-block;
+    width: 780px;
+    margin:40px 10px 20px  0px ;
+   
+}
+
+#csrlintro_container h1{
+    display: inline-block;
+    padding: 15px 0px;
+}
+#csrlintro_container img{
+    display: inline-block;
+}

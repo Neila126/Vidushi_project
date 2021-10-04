@@ -8,7 +8,7 @@ html{
 /*  font-family: 'Baloo Bhai', cursive; */
 /*font-family: 'Bree Serif', serif; */
  body{ 
-     background: url('images/bg2.jpg') no-repeat center center/cover;
+     /* background: url('images/bg2.jpg') no-repeat center center/cover; */
      /* background: #ff5722; */
      height: 800px;
      position: sticky;
@@ -454,9 +454,9 @@ html{
       /* left: 60px; */
       /* position: relative; */
       margin-left: 60px;
-      height: 160px;
+      height: 560px;
       width: 600px;
-      margin-top: 20%;
+      margin-top: 10%;
       background: rgba(216, 211, 211, 0);
       align-items: center;
   }
@@ -470,6 +470,7 @@ html{
   #home h1{
    
       color: #eee8e6;
+      color: black;
       font-family: 'Bree Serif', serif;
       font-size: 30px;
 
@@ -478,11 +479,14 @@ html{
   #home p{
       padding: 6px;
       color:rgb(255, 255, 255);
+      color: black;
       font-family: 'Bree Serif', serif;
+      margin-bottom: 8px;
   }
 
-  #btn_header{
+  #btn_header {
       margin-top: 10px;
+      margin-bottom: 20px;
       height: 30px;
       width: 130px;
       font-family: 'Bree Serif', serif;
@@ -495,6 +499,24 @@ html{
       background: white;
       color: black;
   }
+
+  #btn_header a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #btn_header a:hover{
+   
+    color: black;
+    font-weight: bold;
+  }
+
+
+ #intro_video video{
+   padding-top: 15px;
+   width: 425px;
+    height: 236px;
+ }
 
 /* 
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
